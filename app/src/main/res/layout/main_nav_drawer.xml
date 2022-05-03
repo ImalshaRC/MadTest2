@@ -61,27 +61,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:onClick="ClickWorkout"
-        android:background="@color/whitesmoke">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="WorkOut"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:padding="12dp"
-            android:layout_marginStart="16dp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
-        android:onClick="ClickFood"
+        android:onClick="ClickSelection"
         android:background="@color/whitesmoke">
 
         <TextView
@@ -89,7 +69,7 @@
             android:id="@+id/foodTest"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Meal plan"
+            android:text="Your Selection"
             android:textStyle="bold"
             android:textSize="18sp"
             android:padding="12dp"
@@ -116,7 +96,7 @@
             android:layout_weight="1"
             android:text="My Profile"
             android:textStyle="bold"
-            android:onClick="ClickProfile"
+            android:onClick="ClickMyProfile"
             android:textSize="18sp"
             android:padding="12dp"
             android:layout_marginStart="16dp" />
@@ -128,14 +108,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:onClick="ClickMyPosts"
+        android:onClick="ClickPayment"
         android:background="@color/whitesmoke">
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="My Posts"
+            android:text="Payment"
             android:padding="12dp"
             android:textStyle="bold"
             android:textSize="18sp"
@@ -150,17 +130,6 @@
         android:gravity="center_vertical"
         android:onClick="ClickMyPosts"
         android:background="@color/whitesmoke">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Feedback"
-            android:onClick="FeedbackBtn"
-            android:padding="12dp"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:layout_marginStart="16dp" />
 
     </LinearLayout>
 
@@ -252,28 +221,6 @@
         android:layout_width="match_parent"
         android:layout_height="5dp"
         android:background="@color/white"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/whitesmoke"
-        android:gravity="center_vertical"
-        android:minHeight="48dp"
-        android:onClick="ClickAboutUs"
-        android:orientation="horizontal"
-        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_weight="1"
-            android:padding="12dp"
-            android:text="About Us"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

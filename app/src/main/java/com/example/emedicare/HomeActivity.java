@@ -61,9 +61,9 @@ public class HomeActivity extends AppCompatActivity {
 //        redirectActivity(this, Food.class);
 //    }
 //
-//    public void ClickMyProfile (View view){
-//        redirectActivity(this, Profile.class);
-//    }
+    public void ClickMyProfile (View view){
+        redirectActivity(this, Profile.class);
+    }
 //
 //    public void ClickMyPosts (View view){
 //        redirectActivity(this, MyPosts.class);
