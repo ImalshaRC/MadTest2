@@ -8,57 +8,75 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="168dp"
+        android:layout_height="152dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="65dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/doctorpng1" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="104dp" />
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="36dp"
+        android:text="select"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="178dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.159"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="496dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@drawable/doctorpng1" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="266dp"
-        tools:layout_editor_absoluteY="328dp" />
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="36dp"
+        android:text="select"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="169dp"
+        android:layout_height="141dp"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="288dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:layout_editor_absoluteY="301dp"
+        tools:srcCompat="@drawable/doctorpng2" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="266dp"
-        tools:layout_editor_absoluteY="538dp" />
+        android:layout_marginTop="148dp"
+        android:text="select"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.142"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
