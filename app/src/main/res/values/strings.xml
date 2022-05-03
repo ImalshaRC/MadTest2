@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">EMedicare</string>
+    <string name="drawerHealthCalculator">Health Calculator</string>
+    <string name="hc_Cholesterol">Cholesterol Level</string>
+    <string name="hc_BloodPressure">Blood Pressure Level</string>
+    <string name="hc_Diabetes">Diabetes Level</string>
+    <string name="hc_Calculate">Calculate</string>
 </resources>
