@@ -6,7 +6,7 @@
     android:orientation="horizontal"
     android:padding="12dp"
     android:gravity="center_vertical"
-    android:background="#00758F">
+    android:background="#279F2C">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -19,7 +19,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="FitnessWorld"
+        android:text="Emedicare"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"

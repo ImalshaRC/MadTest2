@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@color/theme_MosaicBlue"
+        android:background="@color/white"
         android:paddingBottom="40dp">
 
         <ImageView
@@ -28,8 +28,8 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="FitnessApp"
-            android:textColor="@color/white"
+            android:text="Emedicare"
+            android:textColor="#279F2C"
             android:textAlignment="center"
             android:textSize="28sp"
             android:textStyle="bold"/>
@@ -116,7 +116,7 @@
             android:layout_weight="1"
             android:text="My Profile"
             android:textStyle="bold"
-            android:onClick="ClickMyProfile"
+            android:onClick="ClickProfile"
             android:textSize="18sp"
             android:padding="12dp"
             android:layout_marginStart="16dp" />
