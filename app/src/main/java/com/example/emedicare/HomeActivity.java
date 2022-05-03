@@ -53,33 +53,34 @@ public class HomeActivity extends AppCompatActivity {
 
     public void ClickHome (View view){ recreate(); }
 
-//    public void ClickWorkout (View view){
+//    public void ClickSelection (View view){
 //        redirectActivity(this, Workout.class);
 //    }
-//
-//    public void ClickFood (View view){
-//        redirectActivity(this, Food.class);
-//    }
-//
+
+
     public void ClickMyProfile (View view){
         redirectActivity(this, Profile.class);
     }
-//
-//    public void ClickMyPosts (View view){
-//        redirectActivity(this, MyPosts.class);
+
+//    public void ClickPayment (View view){
+//        redirectActivity(this, Profile.class);
 //    }
-//
-//    public void ClickBMI (View view){
-//        redirectActivity(this, BMI.class);
-//    }
-//
-//    public void ClickHealthCal (View view){
-//        redirectActivity(this, HealthCalculator.class);
-//    }
-//
-//    public void ClickAboutUs (View view){
-//        redirectActivity(this, AboutUs.class);
-//    }
+
+    public void ClickBMI (View view){
+        redirectActivity(this, BMI.class);
+    }
+
+    public void ClickHealthCal (View view){
+        redirectActivity(this, HealthCalculator.class);
+    }
+
+    public void ClickCalorieCal (View view){
+        redirectActivity(this, CalorieCal.class);
+    }
+
+    public void ClickStepCounter (View view){
+        redirectActivity(this, StepCounter.class);
+    }
 
     public void ClickLogOut(View view){
         NavDrawer.logout(this);

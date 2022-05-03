@@ -32,6 +32,18 @@
             android:name=".UpdateUser"
             android:exported="false" />
         <activity
+            android:name=".BMI"
+            android:exported="false" />
+        <activity
+            android:name=".HealthCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".CalorieCal"
+            android:exported="false" />
+        <activity
+            android:name=".StepCounter"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

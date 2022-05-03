@@ -20,7 +20,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="-1dp"
         android:layout_marginTop="4dp"
-        android:backgroundTint="@color/theme_MosaicBlue"
+        android:backgroundTint="#279F2C"
         app:srcCompat="@drawable/ic_backnew"
         tools:ignore="SpeakableTextPresentCheck" />
 
