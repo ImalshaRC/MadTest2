@@ -5,10 +5,13 @@
       <map>
         <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/activity_home.xml" value="0.1484375" />
         <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/activity_main2.xml" value="0.1" />
         <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/activity_nav_drawer.xml" value="0.1" />
         <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/activity_profile.xml" value="0.1484375" />
-        <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/main_nav_drawer.xml" value="0.18" />
+        <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/activity_update_user.xml" value="0.1" />
+        <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/main_nav_drawer.xml" value="0.16" />
         <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/main_toolbar.xml" value="0.1484375" />
+        <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/main_toolbar_app_update_user.xml" value="0.1" />
         <entry key="..\:/Users/gf65/AndroidStudioProjects/EMedicare/app/src/main/res/drawable/ic_acc.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/gf65/AndroidStudioProjects/EMedicare/app/src/main/res/drawable/ic_back.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/gf65/AndroidStudioProjects/EMedicare/app/src/main/res/drawable/ic_menu.xml" value="0.18958333333333333" />
