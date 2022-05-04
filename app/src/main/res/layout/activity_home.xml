@@ -130,6 +130,9 @@
 
     </LinearLayout>
 
+<<<<<<< HEAD
+
+=======
     <RelativeLayout
         android:layout_width="300dp"
         android:layout_height="match_parent"
@@ -138,5 +141,6 @@
         <include layout="@layout/main_nav_drawer" />
 
     </RelativeLayout>
+>>>>>>> 692532861e851556ccfca3bd168786829895d889
 
 </androidx.drawerlayout.widget.DrawerLayout>
