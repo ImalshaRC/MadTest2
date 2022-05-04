@@ -142,17 +142,13 @@ public class Profile extends AppCompatActivity {
         NavDrawer.redirectActivity(this,Profile.class);
     }
 
-    public void ClickAboutUs (View view){
-        NavDrawer.redirectActivity(this,MainActivity2.class);
-    }
-
     public void ClickLogOut(View view){
         NavDrawer.logout(this);
     }
 
     public void ClickBMI (View view){
 
-        NavDrawer.redirectActivity(this,MainActivity2.class);
+        NavDrawer.redirectActivity(this,BMI.class);
     }
 
     @Override

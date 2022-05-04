@@ -103,18 +103,9 @@ public class HomeActivity extends AppCompatActivity {
 
     public void ClickHome (View view){ recreate(); }
 
-//    public void ClickSelection (View view){
-//        redirectActivity(this, Workout.class);
-//    }
-
-
     public void ClickMyProfile (View view){
         redirectActivity(this, Profile.class);
     }
-
-//    public void ClickPayment (View view){
-//        redirectActivity(this, Profile.class);
-//    }
 
     public void ClickBMI (View view){
         redirectActivity(this, BMI.class);
