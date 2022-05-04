@@ -160,4 +160,7 @@ public class Profile extends AppCompatActivity {
         super.onPause();
         NavDrawer.closeDrawer(drawerLayout);
     }
+
+    public void ORTHOPEDIC_btn(View view) {
+    }
 }
