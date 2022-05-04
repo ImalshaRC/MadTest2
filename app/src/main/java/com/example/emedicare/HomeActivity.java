@@ -127,6 +127,10 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void ClickStepCounter (View view){
+        redirectActivity(this, StepCounter.class);
+    }
+
+    public void ClickTest (View view){
         redirectActivity(this, Appointment.class);
     }
 

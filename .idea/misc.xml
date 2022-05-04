@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/drawable/app_pic_background.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/activity_appointment.xml" value="0.2630208333333333" />
         <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/activity_bmi.xml" value="0.10208333333333333" />
         <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/activity_calorie_cal.xml" value="0.10208333333333333" />
         <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/activity_forgot_password.xml" value="0.10208333333333333" />
@@ -20,6 +22,7 @@
         <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/main_toolbar.xml" value="0.1484375" />
         <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/main_toolbar_app_bmi.xml" value="0.10208333333333333" />
         <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/layout/main_toolbar_app_update_user.xml" value="0.1" />
+        <entry key="..\:/Users/Mudi/Desktop/MAD/MadTest2/app/src/main/res/mipmap-anydpi-v26/app_pic.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/gf65/AndroidStudioProjects/EMedicare/app/src/main/res/drawable/ic_acc.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/gf65/AndroidStudioProjects/EMedicare/app/src/main/res/drawable/ic_back.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/gf65/AndroidStudioProjects/EMedicare/app/src/main/res/drawable/ic_menu.xml" value="0.18958333333333333" />
