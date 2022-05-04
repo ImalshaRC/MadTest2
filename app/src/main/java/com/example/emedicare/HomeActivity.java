@@ -1,28 +1,25 @@
 package com.example.emedicare;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-
-import com.google.firebase.database.FirebaseDatabase;
 
 public class HomeActivity extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
-    private Button OTOLARYNGOLOGIES, OTHOPEDIC, DENTIST, OBSTETRICIAN;
+    private Button OTOLARYNGOLOGIES, ORTHOPEDIC, DENTIST, OBSTETRICIAN;
 
-    public static final String EXTRA_Message1 = "com.example.oto";
+
+
+    public static final String EXTRA_Message1 = "com.example.data1";
+    public static final String EXTRA_Message2 = "com.example.data2";
+    public static final String EXTRA_Message3 = "com.example.data3";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,61 +28,57 @@ public class HomeActivity extends AppCompatActivity {
 
         drawerLayout = findViewById(R.id.drawer_layout);
 
-        OTOLARYNGOLOGIES = (Button) findViewById(R.id.btn_oto);
-//        OTHOPEDIC = (Button) findViewById(R.id.btn_oyo);
-//        DENTIST = (Button) findViewById(R.id.btn_den);
-//        OBSTETRICIAN = (Button) findViewById(R.id.btn_obs);
-
-        Intent i = new Intent(this, MainActivity2.class);
-
-
-
-//        OTHOPEDIC.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                String val1 = "ORTHOPEDIC";
-//
-//                i.putExtra(EXTRA_Message1, val1);
-//                startActivity(i);
-//
-//                startActivity(new Intent(HomeActivity.this,MainActivity2.class));
-//
-//            }
-//        });
-//
-//        DENTIST.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                String val1 = "DENTIST";
-//
-//                i.putExtra(EXTRA_Message1, val1);
-//                startActivity(i);
-//
-//                startActivity(new Intent(HomeActivity.this,MainActivity2.class));
-//
-//            }
-//        });
-//
-//        OBSTETRICIAN.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                String val1 = "OBSTETRICIAN";
-//
-//                i.putExtra(EXTRA_Message1, val1);
-//                startActivity(i);
-//
-//                startActivity(new Intent(HomeActivity.this,MainActivity2.class));
-//
-//            }
-//        });
-
+        OTOLARYNGOLOGIES = findViewById(R.id.btn_oto);
+        ORTHOPEDIC = findViewById(R.id.btn_oyo);
+        DENTIST = findViewById(R.id.btn_den);
+        OBSTETRICIAN = findViewById(R.id.btn_obs);
     }
 
-    public void OTOLARYNGOLOGIES_btn(){
 
+
+    public void OTOLARYNGOLOGIES_btn(View view){
+
+        Intent intent = new Intent(this, Appointment.class);
+
+        intent.putExtra(EXTRA_Message1, "OTOLARYNGOLOGIES Test");
+        intent.putExtra(EXTRA_Message2, "Asiri Laboratory");
+        startActivity(intent);
+
+        Intent i = new Intent(this, Appointment.class);
+        startActivity(i);
+    }
+
+    public void ORTHOPEDIC_btn(View view){
+
+        Intent intent = new Intent(this, Appointment.class);
+
+        intent.putExtra(EXTRA_Message1, "ORTHOPEDIC Test");
+        intent.putExtra(EXTRA_Message2, "Vasana Laboratory");
+        startActivity(intent);
+
+        startActivity(new Intent(HomeActivity.this, Appointment.class));
+    }
+
+    public void DENTIST_btn(View view){
+
+        Intent intent = new Intent(this, Appointment.class);
+
+        intent.putExtra(EXTRA_Message1, "DENTIST Test");
+        intent.putExtra(EXTRA_Message2, "Lanka Laboratory");
+        startActivity(intent);
+
+        startActivity(new Intent(HomeActivity.this, Appointment.class));
+    }
+
+    public void OBSTETRICIAN_btn(View view){
+
+        Intent intent = new Intent(this, Appointment.class);
+
+        intent.putExtra(EXTRA_Message1, "DENTIST Test");
+        intent.putExtra(EXTRA_Message2, "Singha Laboratory");
+        startActivity(intent);
+
+        startActivity(new Intent(HomeActivity.this, Appointment.class));
     }
 
     //Nav Drawer
@@ -164,7 +157,5 @@ public class HomeActivity extends AppCompatActivity {
         super.onStop();
 //        mainAdapter.stopListening();
     }
-
-
 
 }
