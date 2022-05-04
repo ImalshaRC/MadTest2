@@ -192,22 +192,6 @@
         </LinearLayout>
 
 
-
-<!--        <Button-->
-<!--            android:id="@+id/delUser"-->
-<!--            android:layout_width="380dp"-->
-<!--            android:layout_height="50dp"-->
-<!--            android:layout_marginBottom="32dp"-->
-<!--            android:backgroundTint="#009688"-->
-<!--            android:text="Delete User"-->
-<!--            android:textColor="#ffffff"-->
-<!--            android:textSize="26sp"-->
-<!--            android:textStyle="bold"-->
-<!--            android:layout_gravity="center"-->
-<!--            android:layout_marginTop="8dp"/>-->
-
-
-
     </LinearLayout>
 
     <RelativeLayout
@@ -220,3 +204,5 @@
     </RelativeLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>
+
+

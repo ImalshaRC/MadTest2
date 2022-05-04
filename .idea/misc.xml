@@ -30,6 +30,27 @@
         <entry key="..\:/Users/gf65/AndroidStudioProjects/EMedicare/app/src/main/res/layout/main_nav_drawer.xml" value="0.1734375" />
         <entry key="..\:/Users/gf65/AndroidStudioProjects/EMedicare/app/src/main/res/layout/main_toolbar.xml" value="0.1734375" />
         <entry key="..\:/Users/gf65/AndroidStudioProjects/EMedicare/app/src/main/res/layout/main_toolbar_app_update_user.xml" value="0.1734375" />
+<<<<<<< HEAD
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/drawable/circle12.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/drawable/ic_backnew.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/drawable/input_search.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/drawable/outline2.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/drawable/rounded.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/layout/activity_calorie_cal.xml" value="0.23981481481481481" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/layout/activity_forgot_password.xml" value="0.23981481481481481" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/layout/activity_health_calculator.xml" value="0.23981481481481481" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/layout/activity_home.xml" value="0.23981481481481481" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/layout/activity_main.xml" value="0.23981481481481481" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/layout/activity_main2.xml" value="0.23981481481481481" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/layout/activity_nav_drawer.xml" value="0.23981481481481481" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/layout/activity_register_user.xml" value="0.25" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/layout/activity_select_doctor.xml" value="0.25" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/layout/activity_step_counter.xml" value="0.25" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/layout/activity_update_user.xml" value="0.23981481481481481" />
+        <entry key="..\:/Users/gf65/AndroidStudioProjects/MadTest2/app/src/main/res/layout/main_toolbar_app_bmi.xml" value="0.23981481481481481" />
+=======
+>>>>>>> c6bd56aa2c3746fd24852f083fa3278286e1f002
       </map>
     </option>
   </component>
