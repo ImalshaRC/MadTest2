@@ -19,7 +19,8 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_marginTop="15dp"
-            android:gravity="center_horizontal">
+            android:gravity="center_horizontal"
+            >
 
             <TextView
                 android:id="@+id/textView4"
@@ -129,6 +130,17 @@
 
     </LinearLayout>
 
+<<<<<<< HEAD
 
+=======
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
+        <include layout="@layout/main_nav_drawer" />
+
+    </RelativeLayout>
+>>>>>>> 692532861e851556ccfca3bd168786829895d889
 
 </androidx.drawerlayout.widget.DrawerLayout>
