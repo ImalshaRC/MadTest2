@@ -13,12 +13,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 import com.google.firebase.database.FirebaseDatabase;
 
 public class HomeActivity extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
+    Button OTOLARYNGOLOGIST, btn2, btn3, btn4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +29,18 @@ public class HomeActivity extends AppCompatActivity {
 
         drawerLayout = findViewById(R.id.drawer_layout);
 
+        OTOLARYNGOLOGIST = findViewById(R.id.btn_oto);
+        OTOLARYNGOLOGIST = findViewById(R.id.btn_oto);
+        OTOLARYNGOLOGIST = findViewById(R.id.btn_oto);
+        OTOLARYNGOLOGIST = findViewById(R.id.btn_oto);
 
+        OTOLARYNGOLOGIST.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                user.delete();
+//                startActivity(new Intent(Profile.this,MainActivity.class));
+            }
+        });
 
     }
 
@@ -112,5 +125,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onStop();
 //        mainAdapter.stopListening();
     }
+
+
 
 }
